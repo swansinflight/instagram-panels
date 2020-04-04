@@ -18,7 +18,7 @@ Mac I don't know sorry, and.... what, I see there's an iOS verion!? That could b
 script/batch file names should be self explanatory I hope.
 ### How it works:
 1. image is resized to a width suitable for the number chosen. Default export is 1080x1080 tiles, so widths are 2160,3240,4320 (and you can edit for more hopefully once you see the files).
-* *-note that you can export to whatever size you like, I actually export to 2160x2160 tiles when able, for a bit more detail. Info ont he web seems to say instagram is 1080x1080... but I disagree having seem both uploaded to my account and viewing on phone I can zoom beter on a larger image. I should probably heck the actual size myself heh*
+* *-note that you can export to whatever size you like, just change it int he script; I actually export to 2160x2160 tiles when able, for a bit more detail. Info on the web suggests instagram saves the images at 1080x1080... but I disagree having seen both sizes uploaded to my account, and viewing on phone I can zoom better on a larger image. I should probably check the actual size myself heh*
 2. image is cut into separate tiles, from across the centre of the image, and dumped into a subfolder called `/insta`.
 3. That's it. Move to your phone and post, selecting the images in the correct order.
 
@@ -29,6 +29,6 @@ It would be nice to have this just a single interactive script, and ask how many
 
 ### Feedback / Contact
 [Mastodon](https://mastodon.nz/@swansinflight)
-[Keybase](https://keybase.io/swansinflight)
-[Matrix](https://riot.im/app/#/user/@rtwx:matrix.org?action=chat)
+ | [Keybase](https://keybase.io/swansinflight)
+ | [Matrix](https://riot.im/app/#/user/@rtwx:matrix.org?action=chat)
 
