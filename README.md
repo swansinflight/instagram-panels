@@ -2,6 +2,8 @@
 
 TODO: add winndows batch file versions
 
+Credit: creation of these were possible with my limited knowledge due to Xoogu: https://www.xoogu.com/2013/how-to-automatically-watermark-or-batch-watermark-photos-using-imagemagick/ 
+
 Here are various scripts that I use to make different instagram panels.
 
 There are windows batch file versions, and linux script versions.
