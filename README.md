@@ -6,8 +6,7 @@ Here are a few scripts that I use to make different instagram tiling panels.
 
 There are windows batch file versions, and linux script versions.
 
-###
-How to use:
+### How to use:
 They work on the current directory, so can be dumped into a folder with your images and run, and will spit out the tiles/panels into a new subfolder. Or, what I do, is drag the image into a folder containing your scripts and run the one you want.
 
 ### Dependencies:
