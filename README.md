@@ -4,13 +4,13 @@ Credit: creation of these were possible with my limited knowledge due to Xoogu: 
 
 Here are a few scripts that I use to make different instagram tiling panels.
 
-There are (as yet untested, please give feedback!) windows batch file versions, and linux script versions.
+There are (as yet untested, please give feedback!) windows batch file versions, and linux script versions (which I do use).
 
 ### How to use:
 They work on the current directory, so can be dumped into a folder with your images and run, and will spit out the tiles/panels into a new subfolder. Or, what I do, is drag the image into a folder containing your scripts and run the one you want.
 
 ### Dependencies:
-All use `imagemagick`, which you will need to install separately.
+All use [ImageMagick](https://github.com/ImageMagick/ImageMagick), which you will need to install separately.
 On linux it can be installed from your distribution's repository, and for Windows from here: https://imagemagick.org/script/download.php#windows
 Mac I don't know sorry, and.... what, I see there's an iOS verion!? That could be handy if the scripts will run...
  *let me know if you know more than I do and can make this work, as I only have a rudimentary understanding.*
