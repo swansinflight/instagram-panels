@@ -1,4 +1,7 @@
 # instagram-panels
+
+TODO: add winndows batch file versions
+
 Here are various scripts that I use to make different instagram panels.
 
 There are windows batch file versions, and linux script versions.
