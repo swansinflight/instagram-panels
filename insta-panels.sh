@@ -45,7 +45,8 @@ do
     -set option:filter:blur 0.8 \
     -resize $[resizevar]x$[resizevar] \
     -quality 95 \
-    -crop $[tilepixelvar]x$[tilepixelvar] $gravityvar +repage +adjoin \
+    -background black $gravityvar -extent $[resizevar]x$[resizevar] \
+    -crop $[tilepixelvar]x$[tilepixelvar]  +repage +adjoin \
     "./insta-panels/$filename"
 done
 echo 
