@@ -8,7 +8,7 @@ echo         Your tiles can be found in subfolder
 echo                /insta-panels when done
 echo
 read -p 'How many tiles across: ' tilenumvar
-read -p 'Each tile is many pixels wide (and high): ' tilepixelvar
+read -p 'Each tile how  many pixels wide (and high): ' tilepixelvar
 echo
 echo 1 - slice the entire image. Note the bottom tiles may not be squares
 echo 2 - tiles from across the top
@@ -21,6 +21,16 @@ echo NOTE: script errors out when it runs out of images.
 echo  Dont worry!
 echo -----------------------------------------------------
 echo
+if [ "$gravitynumvar" == "1" ]; then gravityvar= ""
+        elif [ "$gravitynumvar" == "2" ]; then 
+		gravityvar= "-gravity north"
+        elif [ "$gravitynumvar" == "3" ]; then 
+		gravityvar= "-gravity center"
+	elif [ "$gravitynumvar" == "4" ]; then 
+		gravityvar= "-gravity south"
+	else
+		echo incorrect option number 
+fi
 
 let resizevar=$tilenumvar*$tilepixelvar
 
@@ -35,7 +45,7 @@ do
     -set option:filter:blur 0.8 \
     -resize $[resizevar]x$[resizevar] \
     -quality 95 \
-    -crop $[tilepixelvar]x$[tilepixelvar] +repage +adjoin \
+    -crop $[tilepixelvar]x$[tilepixelvar] $gravityvar +repage +adjoin \
     "./insta-panels/$filename"
 done
 echo 
