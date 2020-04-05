@@ -33,7 +33,7 @@ I hope this is useful to people. Enjoy :)
 Currently I am working on insta-panels.sh as a single script to do every size. It seems to be working (in linux), and will remove the individual number ones when I am happy with it.
 
 ### Feedback / Contact
-[![](https://imgur.com/RlwSYBU.png)](https://mastodon.nz/@swansinflight)
- | [Keybase](https://keybase.io/swansinflight)
- | [Matrix](https://riot.im/app/#/user/@rtwx:matrix.org?action=chat)
+[![](https://imgur.com/RlwSYBUs.png)](https://mastodon.nz/@swansinflight)
+   [![](https://imgur.com/A6slVMPs.png)](https://keybase.io/swansinflight)
+   [Matrix](https://riot.im/app/#/user/@rtwx:matrix.org?action=chat)
 
