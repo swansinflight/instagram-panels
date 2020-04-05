@@ -8,7 +8,7 @@ There are (as yet untested, please give feedback!) windows batch file versions, 
 
 ## Latest version: single script (linux only so far)
 1. Run insta-panel.sh and select the options as prompted.
-2. Discard black files as required; the script adds black to make the image square before chopping into tiles. You could edit the script to make white if you wish, I didn't want too many options.
+2. Discard black files as required; the script adds black to make the image square before chopping into tiles. You could edit the script to make white if you wish, I didn't want too many options
 3. Transfer to phone and post images inthe correct order, or post to arrange on your profile grid.
 
 ### How to use legacy fixed size versions:
@@ -23,7 +23,7 @@ Mac I don't know sorry, and.... what, I see there's an iOS verion!? That could b
 script/batch file names should be self explanatory I hope.
 ### How it works:
 1. image is resized to a width suitable for the number chosen. Default export is 1080x1080 tiles, so widths are 2160,3240,4320 (and you can edit for more hopefully once you see the files).
-    * *-note that you can export to whatever size you like, just change it int he script; I actually export to 2160x2160 tiles when able, for a bit more detail. Info on the web suggests instagram saves the images at 1080x1080... but I disagree having seen both sizes uploaded to my account, and viewing on phone I can zoom better on a larger image. I should probably check the actual size myself heh*
+    * *-note that you can export to whatever size you like, just change it in the script; I actually export to 2160x2160 tiles when able, for a bit more detail. Info on the web suggests instagram saves the images at 1080x1080... but I disagree having seen both sizes uploaded to my account, and viewing on phone I can zoom better on a larger image. I should probably check the actual size myself heh*
 2. image is cut into separate tiles, from across the centre of the image, and dumped into a subfolder called `/insta`.
 3. That's it. Move to your phone and post, selecting the images in the correct order.
 
