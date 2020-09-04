@@ -28,5 +28,5 @@ Mac I don't know sorry, and.... what, I see there's an iOS verion!? That could b
 I hope this is useful to people. Enjoy :)
 
 ### Feedback / Contact
-[![Mastodon](https://imgur.com/RlwSYBU.png)](https://mastodon.nz/@swansinflight)      [![Keybase](https://imgur.com/A6slVMP.png)](https://keybase.io/swansinflight)     [![Matrix](https://imgur.com/nSuuB4z.png)](https://riot.im/app/#/user/@rtwx:matrix.org?action=chat)
+[![Mastodon](https://imgur.com/RlwSYBU.png)](https://mastodon.nz/@swansinflight)       [![Matrix](https://imgur.com/nSuuB4z.png)](https://app.element.io/#/user/@swansinflight:mtrx.nz?action=chat)
 
